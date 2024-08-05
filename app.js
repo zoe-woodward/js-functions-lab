@@ -54,10 +54,10 @@ Complete the exercise in the space below:
 */
 
 const isCharAVowel = (x) => {
-    if ( x === 'a'|| 'e' || 'i' || 'o' || 'u') {
-        return 'true';
+    if ( x === 'a'|| x === 'e' || x === 'i' || x === 'o' || x === 'u') {
+        return true;
     } else {
-        return 'false'
+        return false
     }
 }
 
